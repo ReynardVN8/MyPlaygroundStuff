@@ -16,6 +16,9 @@
 		096839A623D086D700C24E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096839A423D086D700C24E9E /* LaunchScreen.storyboard */; };
 		096839B123D086D700C24E9E /* MyPlaygroundStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096839B023D086D700C24E9E /* MyPlaygroundStuffTests.swift */; };
 		096839BC23D086D700C24E9E /* MyPlaygroundStuffUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096839BB23D086D700C24E9E /* MyPlaygroundStuffUITests.swift */; };
+		096839CA23D0870300C24E9E /* Playground1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096839C923D0870300C24E9E /* Playground1.swift */; };
+		096839CC23D0872200C24E9E /* Playground2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096839CB23D0872200C24E9E /* Playground2.swift */; };
+		096839CE23D0875500C24E9E /* Playground3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096839CD23D0875500C24E9E /* Playground3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		096839B723D086D700C24E9E /* MyPlaygroundStuffUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPlaygroundStuffUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096839BB23D086D700C24E9E /* MyPlaygroundStuffUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlaygroundStuffUITests.swift; sourceTree = "<group>"; };
 		096839BD23D086D700C24E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096839C923D0870300C24E9E /* Playground1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground1.swift; sourceTree = "<group>"; };
+		096839CB23D0872200C24E9E /* Playground2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground2.swift; sourceTree = "<group>"; };
+		096839CD23D0875500C24E9E /* Playground3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				096839A423D086D700C24E9E /* LaunchScreen.storyboard */,
 				096839A723D086D700C24E9E /* Info.plist */,
 				0968399F23D086D500C24E9E /* MyPlaygroundStuff.xcdatamodeld */,
+				096839C923D0870300C24E9E /* Playground1.swift */,
+				096839CB23D0872200C24E9E /* Playground2.swift */,
+				096839CD23D0875500C24E9E /* Playground3.swift */,
 			);
 			path = MyPlaygroundStuff;
 			sourceTree = "<group>";
@@ -262,10 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096839CA23D0870300C24E9E /* Playground1.swift in Sources */,
 				0968399B23D086D500C24E9E /* ViewController.swift in Sources */,
 				096839A123D086D500C24E9E /* MyPlaygroundStuff.xcdatamodeld in Sources */,
+				096839CE23D0875500C24E9E /* Playground3.swift in Sources */,
 				0968399723D086D500C24E9E /* AppDelegate.swift in Sources */,
 				0968399923D086D500C24E9E /* SceneDelegate.swift in Sources */,
+				096839CC23D0872200C24E9E /* Playground2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
